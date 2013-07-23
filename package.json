@@ -1,0 +1,34 @@
+{
+	"name": "dns-then",
+	"version": "0.1.0",
+	"description": "Promise aware wrapper for Node's dns module",
+	"keywords": ["dns", "node-then", "promises", "when.js", "cujojs"],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Scott Andrews",
+			"email": "scothis@gmail.com",
+			"web": "http://twitter.com/scothis"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/node-then/dns-then.git"
+	},
+	"dependencies": {
+		"node-then": "~0.1"
+	},
+	"devDependencies": {
+		"test-support": "~0.3",
+		"when": "~2.2"
+	},
+	"main": "./lib/dns",
+	"scripts": {
+		"test": "buster test"
+	}
+}
