@@ -8,5 +8,6 @@
 	"resolveSrv",
 	"resolveNs",
 	"resolveCname",
+	"resolveAny",
 	"reverse"
 ]
